@@ -41,10 +41,12 @@ function operate(operator, n1, n2){
 
 
 
-let input = document.querySelector("input");
+let input = document.querySelector("#input");
 
 let buttons = document.querySelector(".number-wrapper");
 
 buttons.addEventListener("click", (e) => {
-    console.log(e.target.innerText)
+    //console.log(e.target.innerText)
+    input.value += e.target.innerText
 })
+
