@@ -1,0 +1,45 @@
+
+body{
+    display:flex;
+    
+}
+.numb-wrap{
+    display: flex;
+}
+
+.number-wrapper{
+    display:flex;
+    height:400px;
+    width:210px;
+    flex-wrap: wrap;
+}
+
+button.numbers{
+    display:flex;
+    width:55px;   
+    flex-grow:1;
+}
+.operators-wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.operators-wrap button {
+    display:flex;
+    flex-grow:1;
+}
+.clear-btn{
+    width:110px;
+}
+
+input {
+    display:flex;
+    height: 65px;
+}
+
+.calc-wrap{
+    display:flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    border: 1px solid red;
+}
