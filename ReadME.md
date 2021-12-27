@@ -8,3 +8,8 @@ create an interface of a calculator
 
 
 Function that when a button is clicked correspoding digit is shown in the input
+
+
+when user clicks operator the first input value is stored in variable
+
+//fix sum - convert to numbers
