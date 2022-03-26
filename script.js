@@ -1,44 +1,4 @@
 
-function add(n1, n2){
-    let sum = parseInt(n1) + parseInt(n2);
-    input.innerText = sum;
-    return sum;  
-}
-
-function substract(n1, n2){
-    let substraction = n1 - n2;
-    input.innerText = substraction
-    return substraction;   
-}
-
-function multiply(n1, n2){
-    let multiplification = n1 * n2;
-    input.innerText = multiplification;
-    return multiplification;  
-}
-
-function divide(n1, n2){
-    let division = n1 / n2;
-    input.innerText = division;
-    return division;  
-}
-
-    function operate(operator, n1, n2){
-        if (operator == "+"){
-            return add(n1, n2)
-        }
-        else if(operator == "-"){
-            return substract(n1, n2)
-        }
-        else if(operator =="*"){
-            return multiply(n1, n2)
-        }
-        else if(operator =="/"){
-            return divide(n1, n2)
-        }
-    }
-
-
 
 let input1 = document.querySelector("#input");
 let input2 = document.querySelector('.input2')
