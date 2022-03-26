@@ -12,4 +12,19 @@ Function that when a button is clicked correspoding digit is shown in the input
 
 when user clicks operator the first input value is stored in variable
 
-//fix sum - convert to numbers
+//fix sum - convert to numbers // done
+
+
+
+
+
+
+
+
+
+
+
+
+user click number
+numbers populate input2(lower)
+when user click operators input1 = firstUserNumber + operatorsValue

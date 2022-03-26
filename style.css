@@ -32,9 +32,15 @@ button.numbers{
     width:110px;
 }
 
-input {
+#input {
     display:flex;
     height: 65px;
+    background-color: pink;
+}
+.input2 {
+    display:flex;
+    height: 65px;
+    background-color: peachpuff;
 }
 
 .calc-wrap{
@@ -43,3 +49,4 @@ input {
     flex-direction: column;
     border: 1px solid red;
 }
+
