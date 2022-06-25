@@ -52,7 +52,7 @@ function mathOperate(){
     }else if(operatorValue === '/'){
         if(inputNumb2 == 0){
             alert('Cannot divide by 0');
-             inputNumb1='';
+            inputNumb1='';
             inputNumb2 = '';
             result ='';
         }else result = parseFloat(result) / parseFloat(inputNumb2)

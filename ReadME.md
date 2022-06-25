@@ -27,4 +27,4 @@ when user clicks operator the first input value is stored in variable
 
 user click number
 numbers populate input2(lower)
-when user click operators input1 = firstUserNumber + operatorsValue
+when user click operators inputNumb1 = firstUserNumber + operatorsValue; and clears input2
